@@ -1,5 +1,5 @@
 # VDL
-Multipurpose media downloader/converter discord bot.
+## Multipurpose media downloader/converter discord bot.
 
 Python Poetry is used to manage the packages for this bot, get it [here](https://python-poetry.org)
 
