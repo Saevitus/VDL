@@ -12,9 +12,14 @@ disnake = "^2.9.1"
 gallery-dl = "^1.26.4"
 shazamio = "^0.4.0.1"
 moviepy = "^1.0.3"
-ffmpeg = "^1.4"
-yt-dlp = "^2023.11.16"
+ffmpeg-python = "^0.2.0"
+validators = "^0.22.0"
+yt-dlp = {version = "^2024.3.14.232657.dev0", allow-prereleases = true}
+black = "^24.4.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.28.0"
 
 [build-system]
 requires = ["poetry-core"]
